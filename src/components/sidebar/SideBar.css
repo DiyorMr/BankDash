@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.logo {
+    display: flex;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+}
+
+.logo_title {
+    color: rgb(52, 60, 106);
+    font-family: 'Mont',sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    background-color: grey;
+    transition: 0.3s linear;
+}
+
+.icon.active {
+    background-color: rgb(45, 96, 255);
+}
+
+.icon.icon_dash {
+    mask-image: url('/public/assets/1.svg');
+    -webkit-mask-image: url('/public/assets/1.svg');
+}
+
+.icon.icon_transaction {
+    mask-image: url('/public/assets/2.svg');
+    -webkit-mask-image: url('/public/assets/2.svg');
+}
+
+.icon.icon_account {
+    mask-image: url('/public/assets/3.svg');
+    -webkit-mask-image: url('/public/assets/3.svg');
+}
+
+.icon.icon_invest {
+    mask-image: url('/public/assets/4.svg');
+    -webkit-mask-image: url('/public/assets/4.svg');
+}
+
+.icon.icon_credit {
+    mask-image: url('/public/assets/5.svg');
+    -webkit-mask-image: url('/public/assets/5.svg');
+}
+
+.icon.icon_loan {
+    mask-image: url('/public/assets/6.svg');
+    -webkit-mask-image: url('/public/assets/6.svg');
+}
+
+.icon.icon_services {
+    mask-image: url('/public/assets/7.svg');
+    -webkit-mask-image: url('/public/assets/7.svg');
+}
+
+.icon.icon_mypril {
+    mask-image: url('/public/assets/8.svg');
+    -webkit-mask-image: url('/public/assets/8.svg');
+}
+
+.icon.icon_setting {
+    mask-image: url('/public/assets/9.svg');
+    -webkit-mask-image: url('/public/assets/9.svg');
+}
+
+.sidebar_menu {
+    padding: 30px 0 0 30px;
+}
+
+.sidebar_menu_item {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    padding: 10px 0;
+}
+
+.sidebar_menu_item.active span.icon {
+    background-color: rgb(45, 96, 255) !important;
+}
+
+.sidebar_menu_item.active span.title {
+    color: rgb(45, 96, 255) !important;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}

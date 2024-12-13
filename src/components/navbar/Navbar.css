@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 40px;
+    height: 100%;
+}
+
+.navbar_title {
+    color: rgb(52, 60, 106);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+
+}
+
+.navbar_info {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.navbar_search {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 40px;
+    background: rgb(245, 247, 250);
+    gap: 15px;
+    padding: 16px 43px 16px 25px;
+    cursor: pointer;
+}
+
+
+.navbar_search_input {
+    outline: none;
+    border: none;
+    color: rgb(139, 163, 203);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+    background: rgb(245, 247, 250);
+}
+
+.navbar_icon_img {
+    width: 20px;
+    height: 20px;
+}
+
+.navbar_icon {
+    width: 40px;
+    height: 40px;
+    background: rgb(245, 247, 250);
+    border-radius: 50%;
+    text-align: center;
+    padding: 6px;
+    cursor: pointer;
+    text-align: center;
+}
+.navbar_icon_user{
+    width: 40px;
+    height: 40px;
+}

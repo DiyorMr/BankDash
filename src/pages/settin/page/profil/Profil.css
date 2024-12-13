@@ -1,0 +1,84 @@
+.setting_profil {
+    display: flex;
+    align-items: center;
+    gap: 145px;
+}
+
+.setting_profil h2 {
+    color: rgb(113, 142, 191);
+    font-family: "Inter", sans-serif !important;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+    padding: 37px 0 0 40px;
+    cursor: pointer;
+}
+
+.input_table_title {
+    color: rgb(35, 35, 35);
+    font-family: "Inter", sans-serif !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.profil_img {
+    margin: 20px;
+
+}
+
+.profil_img img {
+    width: 132px;
+    height: 130px;
+
+}
+
+.input_setting_table input {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid rgb(223, 234, 242);
+    border-radius: 15px;
+    background: rgb(255, 255, 255);
+    color: rgb(113, 142, 191);
+    font-family: "Inter", sans-serif !important;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    outline: none;
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+    cursor: pointer;
+
+}
+
+.input_setting_button {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.input_setting_btn {
+    width: 190px;
+    height: 50px;
+    border-radius: 15px;
+    background: rgb(24, 20, 243);
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif !important;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    outline: none;
+    border: none;
+
+}

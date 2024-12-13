@@ -1,0 +1,437 @@
+.transactions_navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.transactions_title {
+    color: rgb(52, 60, 106);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.transactions_info {
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
+
+.transactions_info_all {
+    color: rgb(52, 60, 106);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.transactions_info_title {
+    color: rgb(52, 60, 106);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+
+}
+
+
+/* Card */
+
+.transactions_info {
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
+
+.transactions_info_all {
+    color: rgb(52, 60, 106);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.transactions_info_title {
+    color: rgb(52, 60, 106);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+
+}
+
+.transactions_card_blue {
+    width: 340px;
+    height: 235px;
+    border-radius: 25px;
+    background: linear-gradient(135.29deg, rgb(76, 73, 237) 2.349%, rgb(10, 6, 244) 101.077%);
+}
+
+.transactions_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.transactions_card_white {
+    width: 340px;
+    height: 235px;
+    box-sizing: border-box;
+    border: 1px solid rgb(223, 234, 242);
+    border-radius: 25px;
+    background: rgb(255, 255, 255);
+}
+
+.transactions_card_info {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background: rgb(255, 255, 255);
+
+}
+
+.card_balance {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+    margin-bottom: 0;
+
+}
+
+.card_balanc {
+    color: rgb(255, 255, 255);
+    font-family: "Lato", sans-serif !important;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 18px 0 0 25px;
+    margin-bottom: 0;
+
+}
+
+.card_price {
+    color: rgb(255, 255, 255);
+    font-family: "Lato", sans-serif !important;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+
+}
+
+.card_name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 34px 25px;
+    margin-bottom: 0;
+
+}
+
+.card_holder_info {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Lato", sans-serif !important;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+
+}
+
+.card_holder_name {
+    color: rgb(255, 255, 255);
+    font-family: "Lato", sans-serif !important;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 5px;
+    margin-bottom: 0;
+
+}
+
+.card_holder_date {
+    color: rgb(255, 255, 255);
+    font-family: "Lato", sans-serif !important;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+
+}
+
+.card_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    border-radius: 0px 0px 25px 25px;
+    background: linear-gradient(180.00deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0) 100%);
+    padding: 25px;
+}
+
+.card_footer_number {
+    color: rgb(255, 255, 255);
+    font-family: "Lato", sans-serif !important;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+/* //////////////////////////////////////////// */
+.card_balanc_white {
+    color: rgb(113, 142, 191);
+    font-family: "Lato", sans-serif !important;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 18px 0 0 25px;
+    margin-bottom: 0;
+
+}
+
+.card_balance_white {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+
+.card_price_white {
+    color: rgb(52, 60, 106);
+    font-family: "Lato", sans-serif !important;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+
+}
+
+.card_name_white {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 34px 25px;
+}
+
+.card_holder_info_white {
+    color: rgb(113, 142, 191);
+    font-family: "Lato", sans-serif !important;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+
+}
+
+.card_holder_name_white {
+    color: rgb(52, 60, 106);
+    font-family: "Lato", sans-serif !important;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.card_holder_info_white {
+    color: rgb(113, 142, 191);
+    font-family: "Lato", sans-serif !important;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+
+}
+
+.card_holder_date_white {
+    color: rgb(52, 60, 106);
+    font-family: "Lato", sans-serif !important;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+
+}
+
+.card_footer_white {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    border: 1px solid rgb(223, 234, 242);
+    border-radius: 0px 0px 25px 25px;
+    padding: 25px;
+}
+
+.card_footer_number_white {
+    color: rgb(52, 60, 106);
+    font-family: "Lato", sans-serif !important;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+
+}
+
+/* /////////////////////////////////////// */
+
+.card_info_deposit {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 2px;
+}
+
+.card_img {
+    width: 55px;
+    height: 55px;
+    background: rgb(255, 245, 217);
+    border-radius: 50%;
+    text-align: center;
+    padding: 12px;
+}
+
+.card_img2 {
+    width: 55px;
+    height: 55px;
+    background: rgb(231, 237, 255);
+    border-radius: 50%;
+    text-align: center;
+    padding: 12px;
+}
+
+.card_img3 {
+    width: 55px;
+    height: 55px;
+    background: rgb(220, 250, 248);
+    border-radius: 50%;
+    text-align: center;
+    padding: 12px;
+}
+
+.card_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 67px);
+}
+
+.card_info_deposit_name {
+    color: rgb(35, 35, 35);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.card_info_deposit_date {
+    color: rgb(113, 142, 191);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.card_info_deposit_price {
+    color: rgb(255, 75, 74);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.card_info_deposit_price2 {
+    color: rgb(65, 212, 168);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.card_info_deposit_price3 {
+    color: rgb(65, 212, 168);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+/* cart-card */
+.chart_card {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.transaction_recent {
+    color: rgb(52, 60, 106);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 20px 0;
+}

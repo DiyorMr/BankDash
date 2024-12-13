@@ -1,0 +1,27 @@
+.layout {
+    display: flex;
+}
+
+.layout .main {
+    width: calc(100vw - 265px);
+}
+
+.layout .sidebar_component {
+    width: 250px;
+    height: 100vh;
+    background-color: #ffffff;
+    border-right: 2px solid rgb(230, 239, 245);
+}
+
+.layout .navbar_component {
+    width: calc(100vw - 270px);
+    height: 75px;
+    background-color: #ffffff;
+}
+
+.layout .childrens {
+    background-color: rgb(229, 229, 229);
+    height: 100%;
+    width: 100%;
+    padding: 24px 30px;
+}
