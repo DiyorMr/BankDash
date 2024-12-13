@@ -93,6 +93,7 @@
     align-items: center;
     gap: 26px;
     padding: 10px 0;
+    position: relative;
 }
 
 .sidebar_menu_item.active span.icon {
@@ -106,4 +107,16 @@
     line-height: 22px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+.sidebar_menu_item.active::before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    bottom: 2px;
+    height: 41px;
+    width: 5px;
+    background: blue;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
 }
